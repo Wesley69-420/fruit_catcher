@@ -1,0 +1,43 @@
+<!DOCTYPE html><html lang="en">
+  <head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.sound.min.js"></script>
+  <script src="libraries/matter.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/player.js"></script>
+  <!-- Link game.js and player.js -->
+
+
+
+  <script src= "https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src= "https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+  
+<script type = "module">
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyDwJP7LgFbrTWIQsUYv6ycNj15aoujuQIA",
+    authDomain: "car-racing-e22e0.firebaseapp.com",
+    databaseURL: "https://car-racing-e22e0-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "car-racing-e22e0",
+    storageBucket: "car-racing-e22e0.appspot.com",
+    messagingSenderId: "331893613734",
+    appId: "1:331893613734:web:96acb5ed482629e0870067"
+  };
+
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <script src="sketch.js"></script>
+</body>
+
+</html>
